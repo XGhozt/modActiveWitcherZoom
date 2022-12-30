@@ -42,7 +42,7 @@ class CActiveWitcherZoom extends CPlayerInput
 	
 	default analogTolerance = 2.5f;
 		
-	default useModifier = true;
+	default useModifier = false;
 	default yModifierPressed = false;
 	default zModifierPressed = false;
 
@@ -56,7 +56,7 @@ class CActiveWitcherZoom extends CPlayerInput
 		
 		// CHANGE THESE VALUES TO YOUR DESIRED INITIAL ZOOM VALUE FOR EACH MODE OF TRAVEL:
 		// values are for: initial zoom, max zoom, initial camera height
-		mode_foot.Init(0.f, 4.1f, .22f);
+		mode_foot.Init(-3.f, 4.1f, .22f);
 		mode_horse.Init(-2.8f, 4.5f, .25f);
 		mode_boat.Init(-4.0f, 4.5f, .05f);
 		//
